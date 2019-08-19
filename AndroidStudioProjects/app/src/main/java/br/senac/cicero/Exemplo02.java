@@ -8,17 +8,17 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-public class Somar2Valores extends AppCompatActivity {
+public class Exemplo02 extends AppCompatActivity {
     //Variaveis para armazenamento dos respectivos elementos da tela
     private EditText txtValor1;
-    private EditText txtValomicro dorner2;
+    private EditText txtValor2;
     private TextView txtViewResultado;
     private Button btnSomar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_somar2_valores);
+        setContentView(R.layout.activity_exemplo02);
         //Referenciando variaiveis com ID de elementos da tela
         txtValor1 = findViewById(R.id.txtValor1);
         txtValor2 = findViewById(R.id.txtValor2);
@@ -28,7 +28,6 @@ public class Somar2Valores extends AppCompatActivity {
         View.OnClickListener listener  = new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
             }
         };
         btnSomar.setOnClickListener(listener);

@@ -10,32 +10,31 @@ import android.widget.EditText;
 
 public class Exemplo01 extends AppCompatActivity {
     //Variaveis para armazenamento dos respectivos elementos da tela
-    private EditText txtNome;
-    private EditText txtSobrenome;
-    private Button btnSaudacao;
+    EditText nome;
+    Button botao;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_exemplo01);
         //Referenciando variaiveis com ID de elementos da tela
-        txtNome = findViewById(R.id.txtNome);
-        txtSobrenome = findViewById(R.id.txtSobrenome);
-        btnSaudacao = findViewById(R.id.btnSaudacao);
+        nome = findViewById(R.id.textoNome);
+        botao = findViewById(R.id.botaoSaudacao);
 
         View.OnClickListener listener  = new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                mostrarDialog("Bem-vindo!", "Olá, " + txtNome.getText() + " " + txtSobrenome.getText());
+                showDialog("Olá, " + nome.getText().toString(),  "Boas Vindas! ");
             }
         };
-        btnSaudacao.setOnClickListener(listener);
+        botao.setOnClickListener(listener);
     }
 
-    private void mostrarDialog(String titulo, String texto){
+    private void showDialog(String message, String title){
         AlertDialog.Builder builder  = new AlertDialog.Builder(Exemplo01.this);
-        builder.setTitle(titulo);
-        builder.setMessage(texto);
+        builder.setTitle(message);
+        builder.setMessage(title);
+        builder.setCancelable(false);
         builder.setPositiveButton("OK",null);
         //builder.create().show();
         //Aqui é a mesma coisa de cima, mas de forma separada chamando apra aparecer um dialogo
