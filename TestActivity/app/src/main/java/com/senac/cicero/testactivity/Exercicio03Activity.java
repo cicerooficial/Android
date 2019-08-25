@@ -12,17 +12,11 @@ import android.widget.RadioButton;
 public class Exercicio03Activity extends AppCompatActivity {
 
     //Representa o componente de campos de texto e botao
-    EditText    nome;
-    EditText    sobrenome;
+    EditText    nome, sobrenome;
     Button      botaoConfirmar;
-    RadioButton radioBotaoMasculino;
-    RadioButton radioBotaoFeminino;
-    RadioButton radioBotaoOutros;
-    RadioButton radioBotaoSolteiro;
-    RadioButton radioBotaoCasado;
-    RadioButton radioBotaoSeparado;
-    RadioButton radioBotaoDivorciado;
-    RadioButton radioBotaoViuvo;
+    RadioButton radioBotaoMasculino, radioBotaoFeminino,
+            radioBotaoOutros, radioBotaoSolteiro, radioBotaoCasado,
+            radioBotaoSeparado, radioBotaoDivorciado, radioBotaoViuvo;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -32,14 +32,14 @@
 
     <TextView
         android:id="@+id/textViewResultado"
-        android:layout_width="65dp"
-        android:layout_height="20dp"
+        android:layout_width="71dp"
+        android:layout_height="16dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="24dp"
         android:layout_marginEnd="8dp"
         android:text="Resultado:"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.275"
+        app:layout_constraintHorizontal_bias="0.28"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextNumero2" />
 

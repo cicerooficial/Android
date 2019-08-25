@@ -11,10 +11,8 @@ import android.widget.EditText;
 public class Exercicio02Activity extends AppCompatActivity {
 
     //Representa o componente de campos de texto e botao
-    EditText    nome;
-    EditText    sobrenome;
+    EditText    nome, sobrenome;
     Button      botaoConfirmar;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
