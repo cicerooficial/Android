@@ -22,14 +22,14 @@ public class Exercicio05Activity extends AppCompatActivity {
         setContentView(R.layout.activity_exercicio05);
 
         //Binding dos componentes com os elementos do layout
-        numero1 = findViewById(R.id.editTextNumero1);
-        numero2 = findViewById(R.id.editTextNumero2);
-        resultado = findViewById(R.id.editTextResultado);
-        botaoCalcular = findViewById(R.id.buttonCalcular);
-        radioButtonSomar = findViewById(R.id.radioButtonSomar);
-        radioButtonSubtrair = findViewById(R.id.radioButtonSubtrair);
-        radioButtonMultiplicar = findViewById(R.id.radioButtonMultiplicar);
-        radioButtonDividir = findViewById(R.id.radioButtonDivorciado);
+        numero1                 = findViewById(R.id.editTextNumero1);
+        numero2                 = findViewById(R.id.editTextNumero2);
+        resultado               = findViewById(R.id.editTextResultado);
+        botaoCalcular           = findViewById(R.id.buttonCalcular);
+        radioButtonSomar        = findViewById(R.id.radioButtonSomar);
+        radioButtonSubtrair     = findViewById(R.id.radioButtonSubtrair);
+        radioButtonMultiplicar  = findViewById(R.id.radioButtonMultiplicar);
+        radioButtonDividir      = findViewById(R.id.radioButtonDivorciado);
 
         //Define um listener de ação
         View.OnClickListener listener = new View.OnClickListener() {
