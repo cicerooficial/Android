@@ -29,7 +29,7 @@ public class Exercicio05Activity extends AppCompatActivity {
         radioButtonSomar        = findViewById(R.id.radioButtonSomar);
         radioButtonSubtrair     = findViewById(R.id.radioButtonSubtrair);
         radioButtonMultiplicar  = findViewById(R.id.radioButtonMultiplicar);
-        radioButtonDividir      = findViewById(R.id.radioButtonDivorciado);
+        radioButtonDividir      = findViewById(R.id.radioButtonDividir);
 
         //Define um listener de ação
         View.OnClickListener listener = new View.OnClickListener() {
