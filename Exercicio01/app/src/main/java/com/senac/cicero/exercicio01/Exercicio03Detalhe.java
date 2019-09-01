@@ -10,7 +10,6 @@ import android.widget.EditText;
 public class Exercicio03Detalhe extends AppCompatActivity {
 
     EditText    textoRecebido;
-    Button      botaoVoltar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,7 +17,6 @@ public class Exercicio03Detalhe extends AppCompatActivity {
         setContentView(R.layout.activity_exercicio03_detalhe);
 
         textoRecebido   = findViewById(R.id.editTextTextoRecebido);
-        botaoVoltar     = findViewById(R.id.buttonVoltar);
 
                 Intent intent = getIntent();
                 String textoR = intent.getStringExtra("textoEnviado");

@@ -10,13 +10,47 @@
         android:id="@+id/buttonSomar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="161dp"
-        android:layout_marginTop="91dp"
-        android:layout_marginEnd="162dp"
-        android:layout_marginBottom="592dp"
+        android:layout_marginStart="203dp"
+        android:layout_marginTop="124dp"
+        android:layout_marginEnd="207dp"
         android:text="Somar"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonSubtrair"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="203dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="205dp"
+        android:text="Subtrair"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonSomar" />
+
+    <Button
+        android:id="@+id/buttonMultiplicar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="192dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="192dp"
+        android:text="Multiplicar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonSubtrair" />
+
+    <Button
+        android:id="@+id/buttonDividir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="205dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="205dp"
+        android:text="Dividir"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonMultiplicar" />
 </androidx.constraintlayout.widget.ConstraintLayout>
