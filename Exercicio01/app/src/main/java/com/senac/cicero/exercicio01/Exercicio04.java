@@ -11,8 +11,8 @@ import android.widget.EditText;
 
 public class Exercicio04 extends AppCompatActivity {
 
-    EditText textoNumero1, textoNumero2, textoResultado;
-    Button botaoCalcular;
+    private EditText textoNumero1, textoNumero2, textoResultado;
+    private Button botaoCalcular;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

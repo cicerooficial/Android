@@ -9,7 +9,7 @@ import android.widget.EditText;
 
 public class Exercicio03Detalhe extends AppCompatActivity {
 
-    EditText    textoRecebido;
+    private EditText    textoRecebido;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

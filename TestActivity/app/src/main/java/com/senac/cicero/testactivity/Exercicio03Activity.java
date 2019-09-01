@@ -12,9 +12,9 @@ import android.widget.RadioButton;
 public class Exercicio03Activity extends AppCompatActivity {
 
     //Representa o componente de campos de texto e botao
-    EditText    nome, sobrenome;
-    Button      botaoConfirmar;
-    RadioButton radioBotaoMasculino, radioBotaoFeminino,
+    private EditText    nome, sobrenome;
+    private Button      botaoConfirmar;
+    private RadioButton radioBotaoMasculino, radioBotaoFeminino,
             radioBotaoOutros, radioBotaoSolteiro, radioBotaoCasado,
             radioBotaoSeparado, radioBotaoDivorciado, radioBotaoViuvo;
 

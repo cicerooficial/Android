@@ -11,9 +11,9 @@ import android.widget.EditText;
 public class Exemplo01Activity extends AppCompatActivity {
 
     //Representa o componente de campo de texto do nome
-    EditText    nome;
+    private EditText    nome;
     //Representa o botão de saudação
-    Button      botao;
+    private Button      botao;
 
 
     @Override
@@ -22,8 +22,8 @@ public class Exemplo01Activity extends AppCompatActivity {
         setContentView(R.layout.activity_exemplo01);
 
         //Binding dos componentes com os elementos do layout
-        nome =  findViewById(R.id.editTextNome);
-        botao = findViewById(R.id.buttonSaudar);
+        nome    =  findViewById(R.id.editTextNome);
+        botao   = findViewById(R.id.buttonSaudar);
 
         //Define um listener de ação
         View.OnClickListener listener = new View.OnClickListener() {

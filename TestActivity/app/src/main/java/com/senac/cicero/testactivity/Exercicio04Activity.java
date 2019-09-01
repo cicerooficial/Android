@@ -11,8 +11,8 @@ import android.widget.EditText;
 public class Exercicio04Activity extends AppCompatActivity {
 
     //Representa o componente de campos de texto e botao
-    EditText numero1, numero2, resultado;
-    Button botaoCalcular;
+    private EditText numero1, numero2, resultado;
+    private Button botaoCalcular;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,10 +20,10 @@ public class Exercicio04Activity extends AppCompatActivity {
         setContentView(R.layout.activity_exercicio04);
 
         //Binding dos componentes com os elementos do layout
-        numero1     = findViewById(R.id.editTextNumero1);
-        numero2     = findViewById(R.id.editTextNumero2);
-        resultado   = findViewById(R.id.editTextResultado);
-        botaoCalcular = findViewById(R.id.buttonCalcular);
+        numero1         = findViewById(R.id.editTextNumero1);
+        numero2         = findViewById(R.id.editTextNumero2);
+        resultado       = findViewById(R.id.editTextResultado);
+        botaoCalcular   = findViewById(R.id.buttonCalcular);
 
         //Define um listener de ação
         View.OnClickListener listener = new View.OnClickListener() {

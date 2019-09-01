@@ -11,8 +11,8 @@ import android.widget.EditText;
 
 public class Exercicio02 extends AppCompatActivity {
 
-    Button botaoAbrirURL;
-    EditText enderecoURL;
+    private Button botaoAbrirURL;
+    private EditText enderecoURL;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

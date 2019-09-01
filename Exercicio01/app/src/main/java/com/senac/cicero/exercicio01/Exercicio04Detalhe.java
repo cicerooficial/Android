@@ -9,7 +9,7 @@ import android.widget.Button;
 
 public class Exercicio04Detalhe extends AppCompatActivity {
 
-    Button botaoSomar, botaoSubtrair, botaoMultiplicar, botaoDividir;
+    private Button botaoSomar, botaoSubtrair, botaoMultiplicar, botaoDividir;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -10,8 +10,8 @@ import android.widget.EditText;
 
 public class Exercicio03 extends AppCompatActivity {
 
-    EditText    textoEnviado;
-    Button      botaoEnviar;
+    private EditText    textoEnviado;
+    private Button      botaoEnviar;
 
 
     @Override

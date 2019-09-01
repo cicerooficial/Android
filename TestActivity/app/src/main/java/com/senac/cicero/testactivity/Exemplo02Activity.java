@@ -24,10 +24,10 @@ public class Exemplo02Activity extends AppCompatActivity {
         setContentView(R.layout.activity_exemplo02);
 
         //faz binding dos componentes (ligação com o XML)
-        editTextNome =          findViewById(R.id.editTextNome);
-        radioButtonMasculino =  findViewById(R.id.radioButtonMasculino);
-        radioButtonFeminino =   findViewById(R.id.radioButtonFeminino);
-        buttonMostrarMensagem = findViewById(R.id.buttonConfirmar);
+        editTextNome            = findViewById(R.id.editTextNome);
+        radioButtonMasculino    = findViewById(R.id.radioButtonMasculino);
+        radioButtonFeminino     = findViewById(R.id.radioButtonFeminino);
+        buttonMostrarMensagem   = findViewById(R.id.buttonConfirmar);
 
         View.OnClickListener listener = new View.OnClickListener() {
             @Override

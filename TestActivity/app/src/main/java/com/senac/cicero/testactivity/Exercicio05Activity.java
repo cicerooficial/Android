@@ -12,9 +12,9 @@ import android.widget.RadioButton;
 public class Exercicio05Activity extends AppCompatActivity {
 
     //Representa o componente de campos de texto e botao
-    EditText numero1, numero2, resultado;
-    Button botaoCalcular;
-    RadioButton radioButtonSomar, radioButtonSubtrair, radioButtonMultiplicar, radioButtonDividir;
+    private EditText numero1, numero2, resultado;
+    private Button botaoCalcular;
+    private RadioButton radioButtonSomar, radioButtonSubtrair, radioButtonMultiplicar, radioButtonDividir;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

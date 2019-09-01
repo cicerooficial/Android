@@ -11,9 +11,9 @@ import android.widget.EditText;
 public class MainActivity extends AppCompatActivity {
 
     //Representa o componente de campo de texto do nome
-    EditText    textoNome;
+    private EditText    textoNome;
     //Representa o botão de saudação
-    Button      botaoSaudar;
+    private Button      botaoSaudar;
 
 
     @Override
