@@ -32,7 +32,7 @@ public class Exercicio04 extends AppCompatActivity {
                 intent.putExtra("numero2",textoNumero2.getText().toString());
 
                 startActivityForResult (intent, 1);
-                startActivity(intent);
+                //startActivity(intent);
             }
         };
         botaoCalcular.setOnClickListener(listener);

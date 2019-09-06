@@ -25,7 +25,7 @@ public class Exercicio04Detalhe extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Intent intent = getIntent();
+                Intent intent           = getIntent();
                 String numero1          = intent.getStringExtra("numero1");
                 String numero2          = intent.getStringExtra("numero2");
                 Double resultadodaSoma  = Double.parseDouble(numero1) + Double.parseDouble(numero2);
@@ -42,7 +42,7 @@ public class Exercicio04Detalhe extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Intent intent = getIntent();
+                Intent intent           = getIntent();
                 String numero1          = intent.getStringExtra("numero1");
                 String numero2          = intent.getStringExtra("numero2");
                 Double resultadodaSoma  = Double.parseDouble(numero1) - Double.parseDouble(numero2);
@@ -59,7 +59,7 @@ public class Exercicio04Detalhe extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Intent intent = getIntent();
+                Intent intent           = getIntent();
                 String numero1          = intent.getStringExtra("numero1");
                 String numero2          = intent.getStringExtra("numero2");
                 Double resultadodaSoma  = Double.parseDouble(numero1) * Double.parseDouble(numero2);
