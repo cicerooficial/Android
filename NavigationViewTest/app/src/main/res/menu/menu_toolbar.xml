@@ -6,7 +6,7 @@
         android:id="@+id/messages"
         android:icon="@android:drawable/ic_dialog_email"
         android:title="Mensagens"
-        app:showAsAction="always" />
+        app:showAsAction="always|withText" />
     <item
         android:id="@+id/messageEntrada"
         android:icon="@drawable/ic_launcher_foreground"
