@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Menu</string>
+    <string name="openDrawer">Abrir Menu</string>
+    <string name="closeDrawer">Fechar Menu</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="Fragmento01">Fragmento 01</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="Fragmento02">Fragmento 02</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="Fragmento03">Fragmento 03</string>
+
+
+</resources>
